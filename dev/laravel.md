@@ -34,6 +34,7 @@ php artisan migrate
 composer require santigarcor/laratrust
 php artisan vendor:publish --tag="laratrust"
 php artisan laratrust:setup
+php artisan vendor:publish --tag=laratrust-assets --force
 composer dump-autoload
 php artisan migrate
 ```
